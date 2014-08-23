@@ -1,6 +1,6 @@
 K-Means
 ===
-kmeans is a fast BSD licensed k-means implementation(with better initialization, 
+kmeans is BSD licensed fast k-means implementation(with better initialization, 
 known as kmeans++) written in pure Go. It supports various distance functions out
 of the box for convenience and experimentation. It has large coverage for tests.
 The algorithm is tested on Iris dataset and distance functions have full test coverage.
