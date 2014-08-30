@@ -11,7 +11,7 @@ import (
 
 // Test K-Means Algorithm in Iris Dataset
 func TestKmeans(t *testing.T) {
-	filePath, err := filepath.Abs("../../../../data/iris.csv")
+	filePath, err := filepath.Abs("data/iris.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
