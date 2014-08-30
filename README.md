@@ -1,5 +1,7 @@
 K-Means
 ===
+![Testing Image](http://img.shields.io/travis/bugra/kmeans.svg?style=flat)  
+
 kmeans is BSD licensed fast k-means implementation(with better initialization, 
 known as kmeans++) written in pure Go. It supports various distance functions out
 of the box for convenience and experimentation. It has large coverage for tests.
