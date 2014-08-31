@@ -1,12 +1,19 @@
+![Testing Image](http://img.shields.io/travis/bugra/kmeans.svg?style=flat)
+![Issues](http://img.shields.io/github/issues/bugra/kmeans.svg?style=flat)  
+
 K-Means
 ===
-![Testing Image](http://img.shields.io/travis/bugra/kmeans.svg?style=flat)  
-
 kmeans is BSD licensed fast k-means implementation(with better initialization, 
-known as kmeans++) written in pure Go. It supports various distance functions out
+known as k-means++) written in Go. It supports various distance functions out
 of the box for convenience and experimentation. It has large coverage for tests.
 The algorithm is tested on Iris dataset and distance functions have full test coverage.
 
+## Documentation
+[Godoc](https://godoc.org/github.com/bugra/kmeans)
+
+
+## License
+[BSD License](https://github.com/bugra/kmeans/blob/master/LICENSE)
 
 ### Distance Functions
 It supports various distance functions:
